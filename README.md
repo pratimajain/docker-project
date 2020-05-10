@@ -56,6 +56,8 @@ That is, if you restart a container using docker-compose up after you shut it do
 How to check data is stored in mysql or not:
 >mysql databases;
 >show mysql_storage database;
+
+
 In this volume all data is stored.
 
 For all this I want to make sure that WordPress and MySQL can talk to each other too, so I have to make sure they’re also in a common network.
